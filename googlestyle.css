@@ -1,4 +1,10 @@
+/* Page Container */
+#page-container {
 
+}
+#content-wrap {
+    padding-bottom:;
+}
 /* Navigation Styling */
 .nav {
     display: flex;
@@ -46,13 +52,17 @@ li a {
     width: 400px;
 }
 /* Footer and Links */
-.footer {
-    display: flex;
-    list-style: none;
-    margin: 0px;
-    
-    width: 100%;
-}
+    #footer {
+        display: absolute ;
+        position: relative;
+        top: 170px;
+        bottom: 0;
+        width: 99%;
+        height: 80px;
+        border-width: .5pt;
+        border-style: solid;
+        background-color: gray;
+    }
 .footer-right {
     float: right;
 }
