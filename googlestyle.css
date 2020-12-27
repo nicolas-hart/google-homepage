@@ -1,0 +1,67 @@
+
+/* Navigation Styling */
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 15px;
+    width: 100%;
+}
+.nav-left {
+    float: left;
+}
+.nav-right {
+    float: right;
+}
+.nav-item {
+    display: inline-block;
+}
+li a {
+    display: block;
+    width: 30px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color:#000;
+    opacity: 0.75;
+}
+/* Google Logo */
+#image-div {
+    margin: auto;
+    text-align: center;
+    padding: 82px;
+    position: relative;
+}
+/* Search bar and buttons */
+.buttons {
+    text-align: center;
+}
+.inputs {
+    text-align: center;
+    padding: 10px 10px 10px 5px;
+}
+#search-bar {
+    border-radius: 12%;
+    width: 400px;
+}
+/* Footer and Links */
+.footer {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    
+    width: 100%;
+}
+.footer-right {
+    float: right;
+}
+.footer-left {
+    float: left;
+}
+.footer-center {
+    text-align: center;
+}
+.footer-item {
+    display: inline-block;
+}

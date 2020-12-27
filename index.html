@@ -1,104 +1,57 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <meta charset="utf8">
-    <title>Google Homepage</title>
-  </head>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Google</title>
 
-  <style>
-      #image-div {
-          text-align: center;
-          padding: 82px;
-          position: relative;
-      }
-      #button {
-          text-align: center;
-      }
-      .div {
-          text-align: center;
-          padding: 0px 0px 100px 0px;
-      }
-      #nav {
-          border-style: dotted;
-      }
-      .text-input {
-          
-          box-sizing: border-box;
-          
-      }
-      .text-style {
-          border-radius: 25%;
-          padding: 5px 8px 16px;
-          padding-left: 14px;
-      }
-      ul {
-          
-          margin: 0;
-          padding: 0;
-          
-      }
-      li {
-          display: inline-block;
-      }
-      li a {
-          display: block;
-          width: 30px;
-          padding: 8px 16px;
-          text-decoration: none;
-          text-align: center;
-          font-size: 14px;
-          color:#000;
-          opacity: 0.75;
-      }
-      li a:hover {        
-        text-decoration: underline;
-      }
-      .footer {
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          background-color: #f2f2f2;
-          color: white;
-          text-align: center;
-          line-height: 40px;
-      }
-  </style>
-<body>
-    <div>
-        <ul>
-            <li><a href="About">About</a></li>
-            <li><a href="Store">Store</a></li>
-
-            <li><a href="Gmail">Gmail</a></li>
-            <li><a href="Images">Images</a></li>
-        </ul>
-    </div>
-    <div id="image-div">
-        <img src="googlelogo.png" id="image-div">
-    </div>
-    <div class="div text-input">
-        <input class="text-style" type="text">
-    </div>
-    <div class="div">
-        <button id="button">
-            Google Search
-        </button>
-        <button id="button">
-            I'm Feeling Lucky
-        </button>
-    </div>
-    <div class="footer" id="footer-text">
-        <ul>
-            <li><a href="Advertising">Advertising</a></li>
-            <li><a href="Business">Business</a></li>
-            <li><a href="How Search works">How Search works</a></li>
-            <li><a href="Carbon neutral since 2007"></a>Carbon Neutral since 2007</li>
-            <li><a href="Priacy">Privacy</a></li>
-            <li><a href="Terms">Terms</a></li>
-            <li><a href="Settings">Settings</a></li>
-        </ul>
-    </div>
-</body>
-</html?
+        <link rel="stylesheet" href="googlestyle.css">
+    </head>
+    <body>
+        <div>
+            <!-- Navigation -->
+            <nav>
+                <ul class="nav-left">
+                    <li class=nav-item><a href="About">About </a></li>
+                    <li class=nav-item><a href="Store">Store </a></li>
+                </ul>
+                <ul class="nav-right">
+                    <li class=nav-item><a href="Gmail">Gmail</a></li>
+                    <li class=nav-item><a href="Images">Images</a></li>
+                    <li class=nav-item><a href="User Profile"> User Profile</a></li>
+                </ul>
+            </nav>
+            <!-- Google Icon-->
+            <main id="image-div">
+                    <img src="googlelogo.png" id=image-div alt="Google Logo">
+            </main>
+            <!-- Search bar ft. mic and mac buttons-->
+            <form>
+                
+            </form>
+            <!-- Google search & I'm feeling Lucky -->
+            <div class="inputs">
+                <input type="text" id="search-bar"> <br> 
+                <br>
+                <button class="buttons"> Google Search</button>
+                <button class="buttons">I'm Feeling Lucky</button>
+            </div>
+            <!-- Footer and Links-->
+            <div>
+                <ul class="footer-left">
+                    <li class="footer-item"><a href="Advertising">Advertising</a></li>
+                    <li class="footer-item"><a href="Business">Business</a></li>
+                    <li class="footer-item"><a href="How Search works">How Search works</a></li>
+                </ul>
+                <ul class="footer-center">
+                    Carbon Neutral since 2007 
+                </ul>
+                <ul class=footer-right>
+                    <li class="footer-item"><a href="Priacy">Privacy</a></li>
+                    <li class="footer-item"><a href="Terms">Terms</a></li>
+                    <li class="footer-item"><a href="Settings">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
