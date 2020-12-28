@@ -1,6 +1,6 @@
 /* Page Container */
 #page-container {
-
+    position: relative;
 }
 #content-wrap {
     padding-bottom:;
@@ -53,6 +53,7 @@ li a {
 }
 /* Footer and Links */
     #footer {
+        box-sizing: border-box;
         display: absolute ;
         position: relative;
         top: 170px;
